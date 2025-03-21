@@ -1,0 +1,44 @@
+[
+  {
+    "id": 5,
+    "icon": "🧑🏻",
+    "title": "Personal",
+    "color": "rgba(188, 208, 247, 1)",
+    "pin": false
+  },
+  {
+    "id": 6,
+    "icon": "⚙️",
+    "title": "Work",
+    "color": "rgba(247, 247, 188, 1)",
+    "pin": false
+  },
+  {
+    "id": 7,
+    "icon": "🏩",
+    "title": "Health",
+    "color": "rgba(199, 243, 207, 1)",
+    "pin": false
+  },
+  {
+    "id": 8,
+    "icon": "⌚️",
+    "title": "Leisure",
+    "color": "rgba(250, 223, 248, 1)",
+    "pin": false
+  },
+  {
+    "id": 9,
+    "icon": "🗽",
+    "title": "Community",
+    "color": "rgba(255, 223, 186, 1)",
+    "pin": false
+  },
+  {
+    "id": 10000000,
+    "icon": "🧑🏻",
+    "title": "Example",
+    "color": "rgba(0, 0, 0, 1)",
+    "pin": false
+  }
+]

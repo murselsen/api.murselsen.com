@@ -1,0 +1,242 @@
+[
+  {
+    "id": 2,
+    "title": "Finish project report",
+    "description": "Complete the final report for the project",
+    "date": "2023-01-05",
+    "time": "15:00",
+    "tags": ["work", "urgent"],
+    "completed": true,
+    "category": "Work"
+  },
+  {
+    "id": 3,
+    "title": "Call John",
+    "description": "Call John to discuss the meeting agenda",
+    "date": "2023-01-02",
+    "time": "14:00",
+    "tags": ["work", "call"],
+    "completed": true,
+    "category": "Work"
+  },
+  {
+    "id": 4,
+    "title": "Gym session",
+    "description": "Attend the gym session at 6 PM",
+    "date": "2023-01-03",
+    "time": "18:00",
+    "tags": ["health", "fitness"],
+    "completed": false,
+    "category": "Health"
+  },
+  {
+    "id": 5,
+    "title": "Dentist appointment",
+    "description": "Visit the dentist for a regular check-up",
+    "date": "2023-01-04",
+    "time": "09:00",
+    "tags": ["health", "appointment"],
+    "completed": false,
+    "category": "Health"
+  },
+  {
+    "id": 6,
+    "title": "Grocery shopping",
+    "description": "Buy groceries for the week",
+    "date": "2023-01-06",
+    "time": "11:00",
+    "tags": ["shopping", "home"],
+    "completed": false,
+    "category": "Personal"
+  },
+  {
+    "id": 7,
+    "title": "Team meeting",
+    "description": "Attend the weekly team meeting",
+    "date": "2023-01-07",
+    "time": "10:00",
+    "tags": ["work", "meeting"],
+    "completed": false,
+    "category": "Work"
+  },
+  {
+    "id": 8,
+    "title": "Doctor appointment",
+    "description": "Visit the doctor for a check-up",
+    "date": "2023-01-08",
+    "time": "09:00",
+    "tags": ["health", "appointment"],
+    "completed": true,
+    "category": "Health"
+  },
+  {
+    "id": 9,
+    "title": "Pick up laundry",
+    "description": "Pick up laundry from the dry cleaners",
+    "date": "2023-01-09",
+    "time": "17:00",
+    "tags": ["home", "errands"],
+    "completed": false,
+    "category": "Personal"
+  },
+  {
+    "id": 10,
+    "title": "Read book",
+    "description": "Read the new book purchased last week",
+    "date": "2023-01-10",
+    "time": "20:00",
+    "tags": ["leisure", "reading"],
+    "completed": false,
+    "category": "Leisure"
+  },
+  {
+    "id": 11,
+    "title": "Write blog post",
+    "description": "Write a new blog post for the website",
+    "date": "2023-01-11",
+    "time": "16:00",
+    "tags": ["work", "writing"],
+    "completed": false,
+    "category": "Work"
+  },
+  {
+    "id": 12,
+    "title": "Plan vacation",
+    "description": "Plan the itinerary for the upcoming vacation",
+    "date": "2023-01-12",
+    "time": "19:00",
+    "tags": ["leisure", "planning"],
+    "completed": false,
+    "category": "Leisure"
+  },
+  {
+    "id": 13,
+    "title": "Car maintenance",
+    "description": "Take the car for regular maintenance",
+    "date": "2023-01-13",
+    "time": "08:00",
+    "tags": ["home", "maintenance"],
+    "completed": false,
+    "category": "Personal"
+  },
+  {
+    "id": 14,
+    "title": "Pay bills",
+    "description": "Pay the monthly utility bills",
+    "date": "2023-01-14",
+    "time": "12:00",
+    "tags": ["home", "finance"],
+    "completed": false,
+    "category": "Personal"
+  },
+  {
+    "id": 15,
+    "title": "Visit parents",
+    "description": "Visit parents for the weekend",
+    "date": "2023-01-15",
+    "time": "10:00",
+    "tags": ["family", "visit"],
+    "completed": false,
+    "category": "Personal"
+  },
+  {
+    "id": 16,
+    "title": "Yoga class",
+    "description": "Attend the yoga class at the community center",
+    "date": "2023-01-16",
+    "time": "18:00",
+    "tags": ["health", "fitness"],
+    "completed": false,
+    "category": "Health"
+  },
+  {
+    "id": 17,
+    "title": "Buy birthday gift",
+    "description": "Buy a birthday gift for Sarah",
+    "date": "2023-01-17",
+    "time": "14:00",
+    "tags": ["shopping", "gift"],
+    "completed": false,
+    "category": "Personal"
+  },
+  {
+    "id": 18,
+    "title": "Clean house",
+    "description": "Do a thorough cleaning of the house",
+    "date": "2023-01-18",
+    "time": "09:00",
+    "tags": ["home", "cleaning"],
+    "completed": false,
+    "category": "Personal"
+  },
+  {
+    "id": 19,
+    "title": "Attend workshop",
+    "description": "Attend the online workshop on productivity",
+    "date": "2023-01-19",
+    "time": "13:00",
+    "tags": ["work", "learning"],
+    "completed": false,
+    "category": "Work"
+  },
+  {
+    "id": 20,
+    "title": "Movie night",
+    "description": "Watch a movie with friends",
+    "date": "2023-01-20",
+    "time": "20:00",
+    "tags": ["leisure", "friends"],
+    "completed": false,
+    "category": "Leisure"
+  },
+  {
+    "id": 21,
+    "title": "Gardening",
+    "description": "Spend time gardening in the backyard",
+    "date": "2023-01-21",
+    "time": "10:00",
+    "tags": ["leisure", "home"],
+    "completed": false,
+    "category": "Leisure"
+  },
+  {
+    "id": 22,
+    "title": "Client meeting",
+    "description": "Meet with the client to discuss project details",
+    "date": "2023-01-22",
+    "time": "11:00",
+    "tags": ["work", "meeting"],
+    "completed": false,
+    "category": "Work"
+  },
+  {
+    "id": 23,
+    "title": "Bake cookies",
+    "description": "Bake cookies for the office party",
+    "date": "2023-01-23",
+    "time": "15:00",
+    "tags": ["home", "cooking"],
+    "completed": false,
+    "category": "Personal"
+  },
+  {
+    "id": 24,
+    "title": "Volunteer work",
+    "description": "Participate in the community volunteer work",
+    "date": "2023-01-24",
+    "time": "09:00",
+    "tags": ["community", "volunteer"],
+    "completed": false,
+    "category": "Community"
+  },
+  {
+    "id": 25,
+    "title": "Tech conference",
+    "description": "Attend the annual tech conference",
+    "date": "2023-01-25",
+    "time": "10:00",
+    "tags": ["work", "conference"],
+    "completed": false,
+    "category": "Work"
+  }
+]

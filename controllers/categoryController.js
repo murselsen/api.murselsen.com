@@ -43,5 +43,5 @@ export const getCategory = async (category) => {
   const foundCategory = dbCategories.find(
     (cat) => cat.title.toLowerCase() === category
   );
-  return foundCategory;
+  return foundCategory; // return undefined if not found
 };

@@ -1,5 +1,7 @@
 import express from "express";
+import path from "path";
 import getPhotos from "../controllers/getPhotos.js";
+
 
 const router = express.Router();
 
@@ -10,11 +12,30 @@ const timeLog = (req, res, next) => {
 };
 
 router.use(timeLog);
-router.use('/photo', express.static(path.join(__dirname, 'photo')));
+
 
 router.get("/", (req, res) => {
     getPhotos().then((photos) => {
         res.json(photos);
+    });
+});
+router.get("/:photo/", (req, res) => {
+    getPhotos().then((data) => {
+        console.log(data.dbPhotos);
+        data.dbPhotos.forEach((photo) => {
+            if (photo.name === req.params.photo) {
+                const photoPath = path.join(process.cwd(), photo.path);
+                res.sendFile(photoPath, (err) => {
+                    if (err) {
+                        console.error(err);
+                        res.status(err.status).end();
+                    } else {
+                        console.log("Sent:", photoPath);
+                    }
+                });
+            }
+        });
+
     });
 });
 

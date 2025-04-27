@@ -4,7 +4,7 @@ import path from 'path';
 const getPhotos = async () => {
 
     let dbPhotos = await fs.readdirSync(
-        path.join(process.cwd(), 'photos'),
+        path.join(process.cwd(), 'photo'),
     )
     const photos = [];
     dbPhotos.forEach((photo) => {

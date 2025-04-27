@@ -13,6 +13,7 @@ import {
 
 // Routers
 import categoryRouter from "./routers/categoryRouters.js";
+import photoRouter from "./routers/photoRouters.js";
 
 const app = express();
 
@@ -33,6 +34,7 @@ app.use(express.json());
 
 // Sample route
 app.use("/categories", categoryRouter);
+app.use("/photos", photoRouter);
 
 app.get("/", (req, res) => {
   res.json([

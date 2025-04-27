@@ -8,7 +8,7 @@ const getPhotos = async () => {
     )
     const photos = [];
     dbPhotos.forEach((photo) => {
-        const photoPath = path.join(process.cwd(), 'photo', photo);
+        const photoPath = path.join('photo', photo);
         const stats = fs.statSync(photoPath);
         const fileSizeInBytes = stats.size;
         const fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024); // Convert to MB

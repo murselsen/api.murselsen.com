@@ -10,6 +10,7 @@ const timeLog = (req, res, next) => {
 };
 
 router.use(timeLog);
+router.use('/photo', express.static(path.join(__dirname, 'photo')));
 
 router.get("/", (req, res) => {
     getPhotos().then((photos) => {

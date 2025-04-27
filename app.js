@@ -43,6 +43,7 @@ app.get("/", (req, res) => {
     "GET /categories",
     "GET /todos",
     "GET /tags",
+    "GET /photos",
     "GET /todos/category/:categoryId",
     "GET /todos/tag/:tagTitle",
   ]);

@@ -7,7 +7,7 @@ const router = express.Router();
 dotenv.config();
 
 // middleware that is specific to this router
-const timeLog = (req, res, next) => {
+const timeLog = (req, next) => {
   console.log("Time: ", Date.now());
   next();
 };
@@ -28,6 +28,7 @@ const fetchGithubUser = (res, url) => {
 
 router.use(timeLog);
 router.get("/", (req, res) => {
+  console.log("Request received at root route:", req.method, req.url);
   console.log("Github Token:", process.env.GITHUB_TOKEN);
   res.json([
     "RestApi World! Welcome to the Server",]);

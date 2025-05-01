@@ -12,6 +12,7 @@ import {
 } from "./controllers/index.js";
 
 // Routers
+import githubRouter from "./routers/githubRouters.js";
 import categoryRouter from "./routers/categoryRouters.js";
 import photoRouter from "./routers/photoRouters.js";
 
@@ -33,6 +34,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 // Sample route
+app.use("/github", githubRouter);
 app.use("/categories", categoryRouter);
 app.use("/photos", photoRouter);
 

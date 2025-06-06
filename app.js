@@ -15,6 +15,7 @@ import {
 import githubRouter from "./routers/githubRouters.js";
 import categoryRouter from "./routers/categoryRouters.js";
 import photoRouter from "./routers/photoRouters.js";
+import vehicleRouter from "./routers/vehicleRouters.js";
 
 const app = express();
 
@@ -37,6 +38,7 @@ app.use(express.json());
 app.use("/github", githubRouter);
 app.use("/categories", categoryRouter);
 app.use("/photos", photoRouter);
+app.use("/vehicles", vehicleRouter);
 
 app.get("/", (req, res) => {
   res.json([
@@ -48,6 +50,8 @@ app.get("/", (req, res) => {
     "GET /photos",
     "GET /todos/category/:categoryId",
     "GET /todos/tag/:tagTitle",
+    "GET /vehicles",
+    "GET /vehicles/categories",
   ]);
 });
 app.get("/test", (req, res) => {

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 345345,
+    "name": "Super Sports"
+  },
+  {
+    "id": 234234,
+    "name": "Electric"
+  },
+  {
+    "id": 123123,
+    "name": "SUV"
+  },
+  {
+    "id": 456456,
+    "name": "Sedan"
+  },
+  {
+    "id": 789789,
+    "name": "Truck"
+  },
+  {
+    "id": 101112,
+    "name": "Coupe"
+  },
+  {
+    "id": 131415,
+    "name": "Hatchback"
+  },
+  {
+    "id": 161718,
+    "name": "Convertible"
+  },
+  {
+    "id": 192021,
+    "name": "Luxury"
+  },
+  {
+    "id": 222324,
+    "name": "Performance"
+  }
+]

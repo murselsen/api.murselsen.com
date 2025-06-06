@@ -50,18 +50,51 @@ router.get("/user/:username/repos/:repoName", (req, res) => {
 });
 // User's Pinned Warehouses
 // https://gh-pinned-repos.egoist.dev/?username=mursel
-router.get('/user/:username/repos/pinned', (req, res) => {
-  const url = `https://gh-pinned-repos.egoist.dev/?username=${req.params.username}`;
-  fetch(url)
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data)
-      res.json(data);
-    })
-    .catch((error) => {
-      console.error("Error fetching data:", error);
-      res.status(500).json({ error: "Failed to fetch data" });
+router.get('/user/:username/repos/pinned', async (req, res) => {
+  const query = `
+    {
+      user(login: "${req.params.username}") {
+        pinnedItems(first: 6, types: REPOSITORY) {
+          nodes {
+            ... on Repository {
+              name
+              description
+              url
+              stargazerCount
+              forkCount
+              languages(first: 1) {
+                nodes {
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `;
+
+  try {
+    const response = await fetch('https://api.github.com/graphql', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ query }),
     });
+
+    const data = await response.json();
+
+    if (data.errors) {
+      return res.status(400).json({ error: data.errors });
+    }
+
+    res.json(data.data.user.pinnedItems.nodes);
+  } catch (error) {
+    console.error('GraphQL API Hatası:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
 // User Organizations

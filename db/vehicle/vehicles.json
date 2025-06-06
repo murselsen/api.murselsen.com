@@ -1,0 +1,298 @@
+[
+  {
+    "brand": "Nissan",
+    "categoryId": 345345,
+    "model": "GT-R Nismo",
+    "basePrice": 122985,
+    "performance": {
+      "maxPower": "565 hp",
+      "acceleration": "2.5 s",
+      "topSpeed": "205 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#d3d3d3", "#7a7a7a", "#000000"],
+        "metallic": ["#000000", "#ff0000", "#c0c0c0", "#002b66", "#f24e1e"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-1",
+          "name": "5-Spoke Silver",
+          "img": "wheel1.png"
+        },
+        {
+          "id": "wheel-2",
+          "name": "10-Spoke Black",
+          "img": "wheel2.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["shape1", "shape2", "shape3"],
+        "colors": ["same as paint"]
+      }
+    }
+  },
+  {
+    "brand": "Lamborghini",
+    "categoryId": 345345,
+    "model": "Huracán Evo",
+    "basePrice": 261274,
+    "performance": {
+      "maxPower": "631 hp",
+      "acceleration": "2.9 s",
+      "topSpeed": "202 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#000000", "#666666"],
+        "metallic": ["#ffcc00", "#990000", "#6600cc"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-3",
+          "name": "Y-Spoke Black",
+          "img": "wheel3.png"
+        },
+        {
+          "id": "wheel-4",
+          "name": "Gloss Silver",
+          "img": "wheel4.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["aero", "carbon-fiber", "default"],
+        "colors": ["same as paint"]
+      }
+    }
+  },
+  {
+    "brand": "Tesla",
+    "categoryId": 234234,
+    "model": "Model S Plaid",
+    "basePrice": 109990,
+    "performance": {
+      "maxPower": "1020 hp",
+      "acceleration": "1.99 s",
+      "topSpeed": "200 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#000000"],
+        "metallic": ["#1e90ff", "#8a2be2"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-5",
+          "name": "Tempest 19\"",
+          "img": "wheel5.png"
+        },
+        {
+          "id": "wheel-6",
+          "name": "Arachnid 21\"",
+          "img": "wheel6.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["techy", "sleek", "standard"],
+        "colors": ["same as paint"]
+      }
+    }
+  },
+  {
+    "brand": "Range Rover",
+    "categoryId": 123123,
+    "model": "Sport SVR",
+    "basePrice": 120000,
+    "performance": {
+      "maxPower": "575 hp",
+      "acceleration": "4.3 s",
+      "topSpeed": "176 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#cccccc", "#000000"],
+        "metallic": ["#003366", "#a52a2a"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-7",
+          "name": "22\" Diamond Cut",
+          "img": "wheel7.png"
+        },
+        {
+          "id": "wheel-8",
+          "name": "Black Pack",
+          "img": "wheel8.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["rugged", "urban", "sleek"],
+        "colors": ["same as paint"]
+      }
+    }
+  },
+  {
+    "brand": "Toyota",
+    "categoryId": 456456,
+    "model": "Camry XSE",
+    "basePrice": 35000,
+    "performance": {
+      "maxPower": "301 hp",
+      "acceleration": "5.8 s",
+      "topSpeed": "130 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#000000", "#808080"],
+        "metallic": ["#ff4500", "#4682b4"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-9",
+          "name": "18\" Alloy",
+          "img": "wheel9.png"
+        },
+        {
+          "id": "wheel-10",
+          "name": "19\" Black Alloy",
+          "img": "wheel10.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["standard", "sporty", "elegant"],
+        "colors": ["same as paint"]
+      }
+    }
+  },
+  {
+    "brand": "Ford",
+    "categoryId": 789789,
+    "model": "F-150 Raptor",
+    "basePrice": 65000,
+    "performance": {
+      "maxPower": "450 hp",
+      "acceleration": "5.1 s",
+      "topSpeed": "107 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#000000", "#808080"],
+        "metallic": ["#ff0000", "#0000ff"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-11",
+          "name": "17\" All-Terrain",
+          "img": "wheel11.png"
+        },
+        {
+          "id": "wheel-12",
+          "name": "18\" Off-Road",
+          "img": "wheel12.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["rugged", "aero", "standard"],
+        "colors": ["same as paint"]
+      }
+    }
+  },
+  {
+    "brand": "Chevrolet",
+    "categoryId": 101112,
+    "model": "Corvette Stingray",
+    "basePrice": 59995,
+    "performance": {
+      "maxPower": "495 hp",
+      "acceleration": "2.9 s",
+      "topSpeed": "194 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#000000", "#ff0000"],
+        "metallic": ["#00ff00", "#0000ff"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-13",
+          "name": "20\" Front, 21\" Rear",
+          "img": "wheel13.png"
+        },
+        {
+          "id": "wheel-14",
+          "name": "Z51 Performance Package",
+          "img": "wheel14.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["aero", "sporty", "standard"],
+        "colors": ["same as paint"]
+      }
+    }
+  },
+  {
+    "brand": "BMW",
+    "categoryId": 131415,
+    "model": "M3 Competition",
+    "basePrice": 71900,
+    "performance": {
+      "maxPower": "503 hp",
+      "acceleration": "4.1 s",
+      "topSpeed": "180 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#000000", "#808080"],
+        "metallic": ["#ffcc00", "#0000ff"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-15",
+          "name": "19\" Front, 20\" Rear",
+          "img": "wheel15.png"
+        },
+        {
+          "id": "wheel-16",
+          "name": "Black M Double-Spoke",
+          "img": "wheel16.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["aero", "sporty", "standard"],
+        "colors": ["same as paint"]
+      }
+    }
+  },
+  {
+    "brand": "Audi",
+    "categoryId": 161718,
+    "model": "R8 V10 Performance",
+    "basePrice": 208100,
+    "performance": {
+      "maxPower": "602 hp",
+      "acceleration": "3.2 s",
+      "topSpeed": "205 mph"
+    },
+    "options": {
+      "paint": {
+        "standard": ["#ffffff", "#000000", "#808080"],
+        "metallic": ["#ff4500", "#4682b4"]
+      },
+      "wheels": [
+        {
+          "id": "wheel-17",
+          "name": "\"5-V-Spoke\" Design",
+          "img": "wheel17.png"
+        },
+        {
+          "id": "wheel-18",
+          "name": "\"10-Spoke\" Design",
+          "img": "wheel18.png"
+        }
+      ],
+      "mirrors": {
+        "shapes": ["aero", "", ""]
+      }
+    }
+  }
+]

@@ -4,7 +4,8 @@ import path from "path";
 export const getCategories = async () => {
   try {
     const fileData = await fs.readFileSync(
-      path.join(process.cwd(), "db", "vehicle", "categories.json")
+      path.join(process.cwd(), "db", "vehicle", "categories.json"),
+      "utf-8"
     );
     return JSON.parse(fileData);
   } catch (error) {

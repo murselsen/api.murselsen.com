@@ -1,6 +1,6 @@
 import express from "express";
-import { getCategories } from "../controllers/vehicle/getCategories";
-import { getVehicles } from "../controllers/vehicle/getVehicles";
+import {getCategories} from "../controllers/vehicle/getCategories.js";
+import {getVehicles} from "../controllers/vehicle/getVehicles.js";
 
 const vehicleRouter = express.Router();
 
